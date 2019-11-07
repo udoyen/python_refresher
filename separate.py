@@ -1,0 +1,1 @@
+sentence = 'I was here universe, galaxy, world'
