@@ -5,6 +5,7 @@ sentence = 'I was here | {universe, galaxy, world}'
 collect = sentence.split('|', 2)[1]
 
 dsrc = re.findall(r'\w+', collect)
+print(dsrc)
 
 sentb = sentence.split('|', 2)[0]
 print(sentb)
