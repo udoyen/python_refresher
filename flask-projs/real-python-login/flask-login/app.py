@@ -18,7 +18,7 @@ import requests
 # Internal imports
 from db import init_db_command
 from user import User
-import info as cinfo
+from info import myinfo
 
 # Configuration
 GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID", None)
