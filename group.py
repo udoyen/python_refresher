@@ -26,4 +26,4 @@ def group(ls, n):
     else:
         print('Wrong arguments! ls = List and n = int required')
 
-group(f, 3)
+group(f, 2)
