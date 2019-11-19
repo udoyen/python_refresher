@@ -1,4 +1,5 @@
 f = [1, 2, 1, 3, 2, 5, 6, 5, 5, 4, 4, 4, 4, 10, 10, 11, 12, 13, 14, 6, 5]
+ss = ([1, 2, 1, 3, 2, 5, 6, 5, 5, 4, 4, 4, 4, 10, 10, 11, 12, 13, 14, 6, 5])
 s = ["python", "java", "Python", "Java", "java", "google", "Python", "Google", "gOOGLE", "google", "JAVA", "JavA"]
 
 
@@ -29,4 +30,4 @@ def unique(n, key=lambda s: s.lower()):
     print(new)
 
 
-unique(f)
+unique(ss)

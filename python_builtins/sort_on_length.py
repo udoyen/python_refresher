@@ -2,7 +2,6 @@ f = ['python', 'perl', 'java', 'c', 'haskell', 'ruby']
 g = ["python", "java", "Python", "Java"]
 
 def lensort(n):
-    fv = len(n[0])
     for i in range(len(n)):
         for j in range(len(n)):
             f1 = n[j]
